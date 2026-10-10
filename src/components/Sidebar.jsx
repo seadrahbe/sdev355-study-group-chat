@@ -13,7 +13,7 @@ export default function Sidebar({ channels }) {
         <button 
           key={channel.id} 
           className="channel"
-          onClick={() => handleChannelClick(e, channel)}
+          onClick={(e) => handleChannelClick(e, channel)}
         >
           # {channel.name}
         </button>
