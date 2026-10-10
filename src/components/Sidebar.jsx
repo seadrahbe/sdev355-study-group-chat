@@ -1,5 +1,5 @@
 export default function Sidebar({ channels }) {
-  function handleChannelClick(channel) {
+  function handleChannelClick(e, channel) {
     console.log("clicked", channel.name);
     console.log("type:", e.type);
     console.log("target:", e.target.tagName, e.target.textContent);
