@@ -1,4 +1,6 @@
+import { useState } from "react";
 import Message from "./Message.jsx";
+import { SEED_MESSAGES } from "../data.js";
 
 export default function MessageList({ messages }) {
   return (
